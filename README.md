@@ -1,9 +1,8 @@
 # Shape Registration in the Time of Transformers
 
-### Code Usage & Reproducible Results
-
 ![image-20190912160913089](./teaser.png)
 
+### Code Usage & Reproducible Results
 
 Download the dataset folder [here](https://www.dropbox.com/sh/wpm783ncirfurzp/AAACQTUWgy7tO7gpAlJM6CD_a?dl=0) and put it under
 transmatching/test/ .
