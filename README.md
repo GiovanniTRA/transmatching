@@ -1,1 +1,36 @@
-# transmatching
+# Shape Registration in the Time of Transformers
+
+### Code Usage & Reproducible Results
+
+![image-20190912160913089](./teaser.png)
+
+
+Download the dataset folder [here](https://www.dropbox.com/sh/wpm783ncirfurzp/AAACQTUWgy7tO7gpAlJM6CD_a?dl=0) and put it under
+transmatching/test/ .
+
+Install environment and dependencies:
+
+```bash
+
+conda create -n transformer_matching
+conda activate transformer_matching
+
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install -c conda-forge igl
+pip install ./transmatching
+
+
+cd transmatching/test
+```
+
+To train the model just run
+
+```bash
+python train.py
+```
+
+To test the model on the FAUST(1k) and obtain the mean geodesic error run, as in Table 2 in the main paper:
+
+```bash
+python test.py
+```
