@@ -1,4 +1,7 @@
-# Shape Registration in the Time of Transformers
+# **Shape Registration in the Time of Transformers** [[Paper]](https://arxiv.org/abs/2106.13679)
+
+**Shape Registration in the Time of Transformers** <br>Giovanni Trappolini, Luca Cosmo, Luca Moschella, Riccardo Marin, Simone Melzi, Emanuele Rodolà  <br>
+
 
 ![image-20190912160913089](./teaser.png)
 
