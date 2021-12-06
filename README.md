@@ -1,7 +1,6 @@
 # **Shape Registration in the Time of Transformers** [[Paper]](https://arxiv.org/abs/2106.13679)
 
 **Shape Registration in the Time of Transformers** <br>Giovanni Trappolini, Luca Cosmo, Luca Moschella, Riccardo Marin, Simone Melzi, Emanuele Rodolà  <br>
-
 In [Neurips, 2021](https://proceedings.neurips.cc/paper/2021/hash/2d3d9d5373f378108cdbd30a3c52bd3e-Abstract.html)
 
 
