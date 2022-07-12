@@ -1,0 +1,5 @@
+outs:
+- md5: 1d13ec56343646a041a8c13296e97296.dir
+  size: 8000130
+  nfiles: 2
+  path: gt_distances_plain

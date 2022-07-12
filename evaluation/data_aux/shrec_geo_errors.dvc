@@ -1,0 +1,5 @@
+outs:
+- md5: 31c54fee44ecab9d355647ef57644a14.dir
+  size: 231665311
+  nfiles: 3010
+  path: shrec_geo_errors

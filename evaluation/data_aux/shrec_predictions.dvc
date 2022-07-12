@@ -1,0 +1,5 @@
+outs:
+- md5: 08ac8e1fbe7591bf12b87868da267c6b.dir
+  size: 493563895
+  nfiles: 2580
+  path: shrec_predictions
