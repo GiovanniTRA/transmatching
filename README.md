@@ -32,8 +32,4 @@ To train the model just run
 python train.py
 ```
 
-To test the model on the FAUST(1k) and obtain the mean geodesic error run, as in Table 2 in the main paper:
-
-```bash
-python test.py
-```
+To test the model please look into `evaluation`
