@@ -1,0 +1,10 @@
+overwrite_predictions: True
+
+dataset: faust_1k_outliers
+
+model:
+  _target_: evaluation.competitors.our.our.OurMatching
+
+#limit: 10
+
+device: cpu
