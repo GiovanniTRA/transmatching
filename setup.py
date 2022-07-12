@@ -24,5 +24,12 @@ setuptools.setup(
     "matplotlib",
     "plotly",
     "pytorch-lightning",
-    "dvc[gdrive]"]
+    "dvc[gdrive]",
+    "meshio",
+    "scipy",
+    "scikit-learn",
+    "python-dotenv",
+    "hydra-core",
+    "pykeops",
+    "GitPython"]
 )

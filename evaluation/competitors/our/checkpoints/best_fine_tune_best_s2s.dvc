@@ -1,0 +1,4 @@
+outs:
+- md5: 69c59b15322f6f8f33f3ff542c285108
+  size: 7027184
+  path: best_fine_tune_best_s2s
