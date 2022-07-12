@@ -12,9 +12,6 @@ To download the datasets it is enough to run:
 dvc pull
 ```
 
-The first time DVC will ask permissions to access drive. 
-The datasets are currently in the shared drive `Gladia/Datasets/DVC/transmatching` under the `@di` domain.
-
 
 ## File tree structure
 
