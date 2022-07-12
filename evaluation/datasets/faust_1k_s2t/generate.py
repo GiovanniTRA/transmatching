@@ -4,12 +4,10 @@ from pathlib import Path
 import meshio
 import numpy as np
 from pytorch_lightning import seed_everything
-from tqdm import tqdm
 from scipy import io
+from tqdm import tqdm
 
-from evaluation.utils import Mesh
-from evaluation.utils import PROJECT_ROOT
-from evaluation.utils import plot_meshes
+from evaluation.utils import PROJECT_ROOT, Mesh, plot_meshes
 
 N_PAIRS = 100
 FAUST_REM = Path(PROJECT_ROOT / "evaluation/datasets/faust_1k/FAUSTS_rem.mat")

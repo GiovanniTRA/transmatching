@@ -5,8 +5,8 @@ import meshio
 import numpy as np
 from meshio import Mesh
 from pytorch_lightning import seed_everything
-from tqdm import tqdm
 from scipy import io
+from tqdm import tqdm
 
 from evaluation.utils import PROJECT_ROOT
 

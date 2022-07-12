@@ -4,6 +4,8 @@ import meshio
 import numpy as np
 import scipy.io
 import torch
+from transmatching.Model.model import Model
+from transmatching.Utils.refine import refine, refine_hires
 
 from evaluation.competitors.eval_dataset import EvalDataset
 from evaluation.competitors.eval_model import ModelMatching
@@ -20,8 +22,6 @@ from evaluation.utils import (
     keops_cdist_argmin,
     plot_meshes,
 )
-from transmatching.Model.model import Model
-from transmatching.Utils.refine import refine, refine_hires
 
 # checkpoint = "data_aug_1_axis"
 # checkpoint = "shape2template_area"

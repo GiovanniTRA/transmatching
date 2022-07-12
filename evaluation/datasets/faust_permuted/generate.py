@@ -3,13 +3,12 @@ from pathlib import Path
 
 import meshio
 import numpy as np
+from meshio import Mesh
+from plotly import graph_objects as go
 from pytorch_lightning import seed_everything
 from tqdm import tqdm
 
-from plotly import graph_objects as go
-from meshio import Mesh
 from evaluation.utils import PROJECT_ROOT
-
 
 FAUST_PATH = Path("/run/media/luca/LocalDisk/Datasets/MPI-FAUST/training/registrations")
 assert FAUST_PATH.exists(), "Do not regenerate! Download from Drive or DVC."

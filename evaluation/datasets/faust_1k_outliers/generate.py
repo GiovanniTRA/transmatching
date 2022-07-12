@@ -1,17 +1,14 @@
 import json
 from pathlib import Path
-from scipy.spatial.transform import Rotation as R
 
 import meshio
 import numpy as np
-import meshio
 from pytorch_lightning import seed_everything
-from tqdm import tqdm
 from scipy import io
+from scipy.spatial.transform import Rotation as R
+from tqdm import tqdm
 
-from evaluation.utils import Mesh
-from evaluation.utils import PROJECT_ROOT
-from evaluation.utils import plot_meshes
+from evaluation.utils import PROJECT_ROOT, Mesh, plot_meshes
 
 N_PAIRS = 100
 FAUST_0NOISE = Path(

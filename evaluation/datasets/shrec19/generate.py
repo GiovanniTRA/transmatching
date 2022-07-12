@@ -4,13 +4,13 @@ from pathlib import Path
 import meshio
 import numpy as np
 import scipy
+from meshio import Mesh
+from plotly import graph_objects as go
 from pytorch_lightning import seed_everything
+from scipy import io
 from tqdm import tqdm
 
-from plotly import graph_objects as go
-from meshio import Mesh
 from evaluation.utils import PROJECT_ROOT
-from scipy import io
 
 seed_everything(0)
 

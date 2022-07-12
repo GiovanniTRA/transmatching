@@ -4,13 +4,10 @@ from pathlib import Path
 import meshio
 import numpy as np
 from pytorch_lightning import seed_everything
+from scipy.io import loadmat
 from tqdm import tqdm
 
-from evaluation.utils import Mesh
-from evaluation.utils import PROJECT_ROOT
-from evaluation.utils import invert_permutation
-from evaluation.utils import plot_meshes
-from scipy.io import loadmat
+from evaluation.utils import PROJECT_ROOT, Mesh, invert_permutation, plot_meshes
 
 FAUST_PATH = Path("/run/media/luca/LocalDisk/Datasets/MPI-FAUST/training/registrations")
 assert FAUST_PATH.exists(), "Do not regenerate! Download from Drive or DVC."
