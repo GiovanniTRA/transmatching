@@ -1,0 +1,4 @@
+outs:
+- md5: 8dc32ce0780ca3b7115dc5936bae70dc
+  size: 7027184
+  path: best_shape2shape_augRotation_Luca_weighted5
