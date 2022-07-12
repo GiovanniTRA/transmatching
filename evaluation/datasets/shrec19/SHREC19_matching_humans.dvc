@@ -1,0 +1,5 @@
+outs:
+- md5: 2a08ff9740bbf8f84cf187dc16c9271c.dir
+  size: 442576027
+  nfiles: 910
+  path: SHREC19_matching_humans

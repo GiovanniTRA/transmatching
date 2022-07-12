@@ -20,8 +20,9 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=["tqdm",
-    "trimesh", 
-    "matplotlib", 
+    "trimesh",
+    "matplotlib",
     "plotly",
-    "pytorch-lightning"]
+    "pytorch-lightning",
+    "dvc[gdrive]"]
 )
